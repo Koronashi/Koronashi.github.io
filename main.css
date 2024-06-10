@@ -1,0 +1,64 @@
+body {
+  background-color: #201A1A;
+  color: #EBDFDF;
+  font-family: Monospace;
+  padding: 2% 5% 5% 5%;
+}
+#icon {
+  display: block;
+  margin: 0px auto 0px auto;
+  width: 15vw;
+}
+header {
+  margin-bottom: 10vw;
+}
+nav {
+  background-color: #534344;
+  margin: auto auto 7% auto;
+  padding: 1%;
+  border-radius: 2.5vw;
+}
+nav:hover{
+  background-color: #534344;
+  margin: auto auto 7% auto;
+  padding: 1%;
+  border-radius: 2.5vw;
+  #protocol {
+    color: green;
+  }
+  #subdomain {
+    color: grey;
+  }
+  #root {
+    color: black;
+  }
+}
+main {
+  background-color: #534344;
+  margin: auto auto 100% auto;
+  padding: 5%;
+  border-radius: 2.5vw;
+}
+footer {
+  margin-top: 100vw;
+}
+footer p {
+  color: #534344;
+  margin: 0px;
+}
+a {
+  color: #EBDFDF;
+  font-size: 4vw;
+}
+p {
+  color: #EBDFDF;
+  font-size: 3.5vw;
+}
+h1 {
+ margin-top: 0px;
+  font-size: 7vw;
+}
+.error-404 {
+  margin: 10vw 0px 0px 0px;
+  width: 80vw;
+}
