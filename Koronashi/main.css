@@ -104,3 +104,7 @@ h1 {
   background-color: #48454E;
   border-radius: 3vw;
 }
+.error-404 {
+  margin: 10vw 0px 0px 0px;
+  width: 80vw;
+}
