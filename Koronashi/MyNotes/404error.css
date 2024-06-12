@@ -1,0 +1,17 @@
+body {
+  background-color: #201A1A;
+  color: #EBDFDF;
+  font-family: Monospace;
+  padding-top: 10vw;
+}
+h1 {
+  font-size: 5vw;
+  margin: 0px;
+}
+a {
+  font-size: 3vw;
+  color: #EBDFDF;
+}
+.error-404 {
+  width: 70vw;
+}
