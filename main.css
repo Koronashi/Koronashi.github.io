@@ -1,50 +1,138 @@
 body {
-  background-color: #201A1A;
-  color: #EBDFDF;
-  font-family: Monospace;
-  padding: 5vw 2vw 2vw 4vw;
+  background-color: #FBFEF7;
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: auto;
+  margin: 0px;
+  color: #252525;
 }
 header {
-  grid-column: 1;
-}
-.location {
-  background-color: #534344;
+  grid-row: 1;
+  grid-column-start: 1;
+  grid-column-end: three;
+  background-color: #DDE5DA;
+  display: flex;
+  align-items: center;
   padding: 2vw;
-  border-radius: 2.5vw;
-  text-align: center;
+}
+.social-icon {
+  border-radius: 100%;
+  width: 9vw;
+  display: block;
+  margin-left: 1vw;
+  margin-bottom: 0px;
+  transition: 0.5s;
+}
+.social-icon:hover {
+  width: 8vw;
 }
 .icon {
-  display: block;
-  margin: auto auto 3vw auto;
-  width: 15vw;
+  border-radius: 100%;
+  padding: 0vw;
+  width: 33vw;
+  transition: 0.5s;
 }
-.myLinks {
-  margin-top: 3vw;
-  background-color: #534344;
-  padding: 2vw;
-  border-radius: 2.5vw;
+.icon:hover {
+  border: 1.3vw solid #5F9A76;
+  padding: 1.5vw;
+}
+nav {
+  grid-row: 2;
+  grid-column-start: 1;
+  grid-column-end: three;
+  background-color: #DDE5DA;
+  padding: 5vw;
   text-align: center;
 }
-.myLinks h2 {
+aside {
   text-align: center;
-  margin: 0px;
+  grid-column: 1;
+  grid-row: 3;
+  background-color: #EDE2FF;
+  margin: 3vw;
+  padding: 3vw 1vw 3vw 1vw;
+  border-radius: 3vw;
+  /*Temp*/
+  height: 60vw;
+}
+section {
+  padding: 3.3vw 3vw 3vw 0px;
+  grid-row: 3;
+  grid-column-start: 2;
+  grid-column-end: three;
+}
+footer {
+  padding: 3vw 2vw 10vw 2vw;
+  grid-row: 4;
+  grid-column-start: 1;
+  grid-column-end: three;
+  text-align: center;
+  background-color: #E2E2EC;
+}
+/*Global Element*/
+h2 {
+  font-size: 6vw;
+}
+h3 {
+  font-size: 5vw;
+}
+h4 {
   font-size: 4vw;
 }
-p, a {
-  margin: 0px;
-  font-size: 2.5vw;
-  color: #EBDFDF;
+h1 {
+  font-size: 7vw;
 }
-
-footer {
-  grid-column: 2;
-  margin: auto;
+p, summary {
+  font-size: 4vw;
 }
-footer p {
-  color: #534344;
-  margin: 0px;
-  text-align: center;
+a, .madeby {
+  font-size: 3vw;
+  color: #576C7F;
+  margin: 0px 0.5vw 0px 0.5vw;
+}
+.feed {
+  padding: 2vw 0px 3vw 0px;
+  border-radius: 2vw;
+  transition: 0.3s;
+  margin-bottom: 1vw;
+}
+.feed:hover {
+  border: 0.3vw solid #737373;
+  box-shadow: 1vw 2vw #737373;
+  margin-bottom: 5vw;
+}
+.feed p {
+  margin: 0px 2vw 0px 2vw;
+}
+summary {
+  margin: 2vw;
+}
+details {
+  border-radius: 1vw;
+  margin: 0px 1vw 0px 1vw;
+  border: 1px solid #737373;
+}
+.school-icon {
+  border-radius: 100%;
+  width: 12vw;
+  height: 12vw;
+  margin: 1.5vw 1vw 0vw 1vw;
+}
+#elementary-edu {
+  color: #3e3d3d;
+  background-color: #F5DED8;
+  border: 1px solid #737373;
+  display: flex;
+}
+#jrhs-edu {
+  color: #3e3d3d;
+  background-color: #e2e5ff;
+  border: 1px solid #737373;
+  display: flex;
+}
+#shs-edu {
+  color: #3e3d3d;
+  background-color: #BDE0FE;
+  border: 1px solid #737373;
+  display: flex;
 }
