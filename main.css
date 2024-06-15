@@ -5,6 +5,7 @@ body {
   grid-template-rows: auto;
   margin: 0px;
   color: #252525;
+  font-family: Sans-serif;
 }
 header {
   grid-row: 1;
@@ -69,7 +70,6 @@ footer {
   text-align: center;
   background-color: #E2E2EC;
 }
-/*Global Element*/
 h2 {
   font-size: 6vw;
 }
@@ -95,6 +95,7 @@ a, .madeby {
   border-radius: 2vw;
   transition: 0.3s;
   margin-bottom: 1vw;
+  font-family: Serif;
 }
 .feed:hover {
   border: 0.3vw solid #737373;
@@ -135,4 +136,18 @@ details {
   background-color: #BDE0FE;
   border: 1px solid #737373;
   display: flex;
+}
+.mylinks-icon {
+  border-radius: 100%;
+  border: 1px solid #252525;
+  width: 7vw;
+  transition: 0.3s;
+  box-shadow: 0vw 0vw 1vw 0.2vw #707070;
+}
+.mylinks-icon:hover {
+  width: 10vw;
+  box-shadow: 0vw 0vw 2vw 1vw #707070;
+}
+.circ1, .circ2, .circ3 {
+  text-align: center;
 }
