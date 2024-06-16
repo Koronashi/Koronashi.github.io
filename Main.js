@@ -19,5 +19,6 @@ function getAuthor(x) {
   }
 }
 
-document.getElementById("qu").innerHTML = favQuotes[getRandomString()];
-document.getElementById("aut").innerHTML = "- " + getAuthor(getRandomString());
+var y = getRandomString();
+document.getElementById("qu").innerHTML = favQuotes[y];
+document.getElementById("aut").innerHTML = "-" + getAuthor(y);
