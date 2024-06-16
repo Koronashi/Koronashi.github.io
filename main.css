@@ -1,3 +1,6 @@
+html {
+  scroll-behavior: smooth;
+}
 body {
   background-color: #FBFEF7;
   display: grid;
@@ -6,6 +9,10 @@ body {
   margin: 0px;
   color: #252525;
   font-family: Sans-serif;
+}
+::selection {
+  background-color: #689ef7;
+  color: #E0E0E0;
 }
 header {
   grid-row: 1;
@@ -16,16 +23,54 @@ header {
   align-items: center;
   padding: 2vw;
 }
-.social-icon {
-  border-radius: 100%;
-  width: 9vw;
-  display: block;
-  margin-left: 1vw;
-  margin-bottom: 0px;
-  transition: 0.5s;
+.description {
+  transition: 1s ease-in-out;
+  margin: 2vw 0px;
 }
-.social-icon:hover {
-  width: 8vw;
+.descript1 {
+  transition: 1s ease-in-out;
+  color: #FB8500;
+}
+.descript2 {
+  transition: 1s ease-in-out;
+  color: #219EBC;
+}
+.descript3 {
+  transition: 1s ease-in-out;
+  color: blue;
+}
+.descript4 {
+  transition: 1s ease-in-out;
+  color: #2A9D8F;
+}
+.descript5 {
+  transition: 1s ease-in-out;
+  color: #264653;
+}
+
+
+.description:hover {
+  text-shadow: 0px 0px 1vw #9d9d9d;
+  .descript1 {
+    color: white;
+    background-color: #FB8500;
+  }
+  .descript2 {
+    color: white;
+    background-color: #219EBC;
+  }
+  .descript3 {
+    color: white;
+    background-color: blue;
+  }
+  .descript4 {
+    color: white;
+    background-color: #2A9D8F;
+  }
+  .descript5 {
+    color: white;
+    background-color: #264653;
+  }
 }
 .icon {
   border-radius: 100%;
@@ -46,14 +91,23 @@ nav {
   text-align: center;
 }
 aside {
-  text-align: center;
   grid-column: 1;
   grid-row: 3;
-  background-color: #EDE2FF;
-  margin: 3vw;
+  padding: 3vw;
+}
+.aside-content {
   padding: 3vw 1vw 3vw 1vw;
   border-radius: 3vw;
-  /*Temp*/
+  text-align: center;
+  margin-bottom: 1px;
+}
+.content {
+  background-color: #EDE2FF;
+  height: 60vw;
+}
+.notes {
+  background-color: #ede2ff;
+  margin-top: 2vw;
   height: 60vw;
 }
 section {
@@ -62,9 +116,19 @@ section {
   grid-column-start: 2;
   grid-column-end: three;
 }
+main {
+  grid-row: 4;
+  grid-column-start: 1;
+  grid-column-end: three;
+  padding: 2vw;
+}
+main li, main a {
+  font-size: 4vw;
+  margin: 0px;
+}
 footer {
   padding: 3vw 2vw 10vw 2vw;
-  grid-row: 4;
+  grid-row: 5;
   grid-column-start: 1;
   grid-column-end: three;
   text-align: center;
@@ -82,7 +146,7 @@ h4 {
 h1 {
   font-size: 7vw;
 }
-p, summary {
+p, summary, q {
   font-size: 4vw;
 }
 a, .madeby {
