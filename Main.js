@@ -12,9 +12,9 @@ function getRandomString() {
 }
 
 function getAuthor(x) {
-  if (x <= 4) {
+  if (x<4) {
     return "Albert Einstein";
-  } else if (x <= 5) {
+  } else if (x<5) {
     return "Donquixote Doflamingo";
   }
 }
