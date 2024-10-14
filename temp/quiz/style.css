@@ -1,0 +1,69 @@
+html { scroll-behavior: smooth; }
+body {
+    font-family: 'Raleway';
+    margin: 0px;
+    overflow: hidden;
+}
+li {
+    margin: 0px;
+    list-style-type: upper-alpha;
+    font-size: 3vw;
+    margin: 0px 50px;
+}
+h1 { font-size: 4vw;}
+section, header, footer {
+    box-sizing: border-box;
+    padding: 20px;
+    height: 100vh; width: 100vw;
+}
+
+.button {
+    text-decoration: none;
+    padding: 10px 25px;
+    border-radius: 10px;
+    background-color: #2b2d42;
+    color: white;
+    font-size: larger;
+}
+.qq {
+    float: right;
+    margin: 0px 5px;
+}
+
+/* individual */
+#start {
+    margin-top: 20vh; margin-right: 50px;
+    background-color: #023047;
+    color: white;
+    font-size: 3vw;
+    float: right;
+}
+header {
+    padding-top: 30px;
+    background-color: #fefae0;
+}
+header h1 {
+    font-size: 7.5vw;
+    margin: 0px;
+}
+.aquestion-section {
+    height: 80vh;
+}
+#que1, #que4, #que7{
+    background-color: #8ecae6;
+}
+#que2, #que5 {
+    background-color: #fff3b0;
+}
+#que3, #que6 {
+    background-color: #f28482;
+}
+.emp {
+    width: 30vw;
+    margin-left: 30vw;
+    border-radius: 10px;
+}
+
+footer {
+    background-color: #f1faee;
+}
